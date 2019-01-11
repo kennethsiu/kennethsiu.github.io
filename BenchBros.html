@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kenneth Siu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://use.fontawesome.com/e10086b709.css" media="all" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <!--<a class="navbar-brand" href="#">Portfolio</a>-->
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active" style="font-family:monospace"><a href="index.html"><font size="4" color="337ab7">&lt;/Kenneth Siu&gt;</font></a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="Resume.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="RandomMessenger" class="container-fluid bg-3">
+  <h1><b>Projects</b></h1><br>
+  <!--RandomMessenger-->
+  <p>
+    <h3><b>BenchBros</b></h3>
+    <br>
+    <!--<ul>-->
+    <!--  <li>Developed a mobile application with six other members that allows users to connect to other users at random and start a conversation on Android Studio using Java</li>-->
+    <!--  <li>Implemented features such as messaging, login, and themes</li>-->
+    <!--  <li>Managed the database using Google Firebase which stored user messages</li>-->
+    <!--  <li>Utilized agile development to develop the application (requirements, design, implementation, testing)</li>-->
+    <!--  <li>Languages & Frameworks: <b>Java, Google Firebase, Android Studio</b></li>-->
+    <!--</ul>-->
+    
+    <h3>About</h3>
+    <p>
+    BenchBros is a mobile application created by two software developers, and one graphics artist.
+    It is a simple game inspired by our dedication to working out, and our motivation behind creating it was to create a new game that users could play to replace Flappy Birds when the owner took it down from the app store.
+    
+    <center>
+        <iframe width="420" height="315" frameborder="0" allowfullscreen
+        src="https://www.youtube.com/embed/QI-mub9UlAI"></iframe>
+    </center>
+    <br><br>
+    My role for this project was an Android software developer.
+    As a developer, I created a lot of the core functionality, such as background transitioning, logic design of which stage to enter, touch screen response, and random time generator.
+    If you visit our <a href="https://devpost.com/software/bench-bros" target="_blank">Devpost page</a>, which contains our project submission at the hackathon.
+    <br><br>
+    
+    <h3>Process</h3>
+    <p>
+        The development process for this application spanned over 36 hours.
+        There was no real software development methodology used, as this project was developed at a Hackathon, and there was no need and time to instill a strict process.
+        <br>
+        <center>
+          <a id="BenchBros_Process" href="images/BenchBros_process.jpg" target="_blank">
+            <img src="images/BenchBros_process.jpg" height="35%" width="35%">
+          </a>
+        </center>
+        <br>
+        The first step was to find a group to work on this project together.
+        Initially, I had already known the other software developer in the group.
+        We eventually added a third member, who was our graphics specialist.
+        During the first couple of hours, our group was debating on what kind of project we wanted to work on.
+        All of the members of the team enjoyed working out, so we were leaning towards creating a fitness app, but we ultimately steered away from that option because there were already so many existing fitness apps that track your workouts.
+        Instead, we decided to create a game in hopes to replace Flappy Birds, as the owner of Flappy Birds took down the app during that period.
+        <br><br>
+        <center>
+          <a href="images/Flappy-Bird.jpg" target="_blank">
+            <img src="images/Flappy-Bird.jpg" height="35%" width="35%">
+          </a>
+        </center>
+        <br>
+        After deciding on creating a game, we drew several preliminary rough sketches on what we wanted the game to end up looking like.
+        Once we had a rough idea of what we wanted to develop, we began coding.
+        <br>
+      <center>
+        <a id="Unity_Gif" href="images/BenchBros_gif.gif" target="_blank">
+          <img src="images/BenchBros_gif.gif" height="35%" width="35%">
+        </a>
+      </center>
+        <br>
+        The entire application was done in <b>C#</b>, and we used <b>Unity</b> as the IDE for development.
+        C# is the primary language for Unity, and all of the team developers wanted to learn a new language.
+        The first major feature we implemented was the background transitioning between each stage.
+        For example, we had a home screen page, a game page, and a "how to play" page.
+        We had to develop functionality to allow users to switch from one screen to the next.
+        The second major feature we implemented was touch screen response and random time generator.
+        We needed to track if the user tapped the screen before the time was up.
+        We also implemented the random time functionality so that users could not strictly time the next moment to press the screen, or there would be no challenge.
+        <br>
+        <br>
+    </p>
+    
+    <h3>Challenges</h3>
+    <p>
+      The most difficult part of this project was that we only had 36 hours to develop a working product.
+      Not only was there a severe time constraint, none of us used Unity or C# before.
+      This required a lot of Googling and patience, but we ultimately developed an application for users to enjoy.
+      <br><br>
+      In addition, I had already known the other software developer prior to the project, but we needed to find a graphics artist.
+      This took a while to find one who was willing to join our team, and we did not have much time to get to know each that well other due to time restrictions.
+    </p>
+  </p>
+  <div style="text-align:center">   
+    <a href="https://devpost.com/software/bench-bros" target="_blank">
+      <img border="0" src="images/Devpost-32.png" height="24px" width="28px">
+    </a>
+  </div>
+  <br><br>
+</div><br>
+
+<footer id="contact" class="container-fluid text-center">
+  <a href="mailto:kennethsiu96@yahoo.com">
+      <i class="fa fa-envelope fa-3x"></i>
+  </a> &nbsp; &nbsp;
+  <a href="http://linkedin.com/in/kennethsiu" target="_blank">
+      <i class="fa fa-linkedin-square fa-3x"></i>
+  </a> &nbsp; &nbsp;
+  <a href="http://github.com/kennysiu" target="_blank">
+      <i class="fa fa-github fa-3x"></i>
+  </a> &nbsp; &nbsp;
+  </a>
+  
+<!--</footer>-->
+
+</body>
+</html>

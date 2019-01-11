@@ -1,0 +1,71 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/*Fix the bootstrap navbar-fixed top*/
+body {
+  padding-top: 70px;
+}
+
+#logo, #Home {
+  color: #337ab7;
+  font-family: monospace;
+}
+
+#LinkedIn_img {
+  /*border-radius: 50%;*/
+  /*height: 100px;*/
+  /*width: 100px;*/
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+imgleft {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    /*height: 10%;*/
+    /*width: 10%;*/
+}
+
+imgright {
+    display: inline-block;
+    float: right;
+    height: 40%;
+    width: 40%;
+}
+
+descright {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+#about_text, #experience, #projects, #education, #RandomMessenger {
+  padding-top: 50px;
+  width: 65%;
+  margin: auto;
+}
+
+RandomMessenger_Image {
+    display: inline-block;
+    text-align: center;
+}
+
+#RandomMessengerChat_Outside {
+  z-index: 1;
+}
+
+#RandomMessengerChat_Inside {
+  z-index: -1;
+}
+
+#myCarousel {
+  height: 350.975px;
+  width: 213.975px;
+}

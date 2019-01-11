@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kenneth Siu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://use.fontawesome.com/e10086b709.css" media="all" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <!--<a class="navbar-brand" href="#">Portfolio</a>-->
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active" style="font-family:monospace"><a href="index.html"><font size="4" color="337ab7">&lt;/Kenneth Siu&gt;</font></a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="Resume.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="RandomMessenger" class="container-fluid bg-3">
+  <h1><b>Projects</b></h1><br>
+  <!--RandomMessenger-->
+  <p>
+    <h3><b>Random Messenger</b></h3>
+    <br>
+    <!--<ul>-->
+    <!--  <li>Developed a mobile application with six other members that allows users to connect to other users at random and start a conversation on Android Studio using Java</li>-->
+    <!--  <li>Implemented features such as messaging, login, and themes</li>-->
+    <!--  <li>Managed the database using Google Firebase which stored user messages</li>-->
+    <!--  <li>Utilized agile development to develop the application (requirements, design, implementation, testing)</li>-->
+    <!--  <li>Languages & Frameworks: <b>Java, Google Firebase, Android Studio</b></li>-->
+    <!--</ul>-->
+    
+    <h3>About</h3>
+    <p>
+    RandomMessenger is a mobile application created by seven developers, including me, with an intent to connect students across campus. 
+    UC San Diego is notoriously known for being "socially dead," so we wanted to create a social media platform to improve this stereotype.
+    
+    <center>
+      <a id="RandomMessengerChat_Home" href="images/RandomMessenger.png" target="_blank">
+        <img src="images/RandomMessenger.png" height="350.975px" width="213.975px">
+      </a>
+      
+      &nbsp; &nbsp;
+      
+      <a id="RandomMessengerChat_Inside" href="images/RandomMessenger_Chat.png" target="_blank">
+        <img src="images/RandomMessenger_Chat.png">
+      </a>
+      
+      &nbsp; &nbsp;
+      
+      <a id="RandomMessengerChat_Inside" href="images/RandomMessenger_Chat_Conversation.jpg" target="_blank">
+        <img src="images/RandomMessenger_Chat_Conversation.jpg" height="350.975px" width="213.975px">
+      </a>
+    </center>
+    <br><br>
+    My role for this project was both a project manager and a software engineer.
+    As a project manager, I held weekly meetings and created milestones for our teams to meet.
+    I kept my team in check by creating and updating burn down charts to see how our progress was coming along.
+    If anyone needed additional assistance, I was in charge of assigning someone to provide that group with additional help, whether it be the development or testing team.
+    In addition, as the project manager, I did all the code reviews to make sure that the code that my team was submitting was accurate.
+    If you visit our <a href="https://github.com/kennysiu/RandomMessenger/commits/master" target="_blank">GitHub Project Commits</a>, you will see that all of the commits had to be accepted by me (ksiu002) before the code went live.
+    
+    <br><br>
+    <center>
+      <a id="RandomMessengerChat_Commits" href="images/RandomMessenger_about_commits.png" target="_blank">
+        <img src="images/RandomMessenger_about_commits.png" height="40%" width="40%">
+      </a>
+    </center>
+    
+    <br><br>
+    As a software engineer, I worked on the backend development for this project.
+    The biggest feature that I spent my time developing was the messaging part of the application.
+    This includes the actual messaging functionality of making a messsage appear on the screen when clicking the send button,
+    and also storing all the messages in a database for future usage.
+    <br><br>
+    
+    <h3>Process</h3>
+    <p>
+        The development process for this application spanned over 10 weeks.
+        We used the agile model for development, as this was a relatively short term project.
+        As the project manager, I set milestones or goals every week that I wanted to accomplish by the end of that week, and gathered new project specifications from our customers, which were other students.
+        The agile model can be summed up in four major steps: requirements, design, implementation, and testing.
+        
+        <br>
+        <h4><b>Requirements</b></h4>
+        <p>
+          This is the phase where we gathered information regarding the project requirements.
+          Because the agile method was utilized, there were new requirements assigned by our customers on a weekly basis.
+          In summary, the requirement was to create a mobile application that randomly connects students across the UCSD campus that allows them to message each other.
+          Some additional features that were required in the long run were user avatars and themes.
+          This phase is important because we needed to make sure that all the information we gathered was accurate, otherwise we could potentially fall behind if we had to go back and redo parts of my project.
+          <center>
+            <a id="RandomMessenger_Requirements" href="images/RandomMessenger_requirements.jpg" target="_blank">
+              <img src="images/RandomMessenger_requirements.jpg" height="40%" width="40%">
+            </a>
+          </center>
+        </p>
+        <!--<br>-->
+        <h4><b>Design</b></h4>
+        <p>
+          This is the phase where we decided how we wanted to go about implementing the project.
+          Our customers required us to build several UML diagrams so they could have a visual understanding of the product we were going to deliver.
+          Though no coding was involved in this phase, it was still technical as the UML diagrams listed functions we were planning on implementing.
+          This phase is important because a poor design, such as a poor user interface, would lead to a lack of users.
+          <center>
+            <a id="RandomMessenger_Design" href="images/RandomMessenger_design.png" target="_blank">
+              <img src="images/RandomMessenger_design.png" height="40%" width="40%">
+            </a>
+          </center>
+        </p>
+        <!--<br>-->
+        <h4><b>Implementation</b></h4>
+        <p>
+          This is the phase where I actually began building the application and seeing it come to life.
+          The entire application was done in <b>Java</b>, and we used Android Studio as the IDE for development.
+          Java is the primary language for Android development, and all of the team had prior experience using this language, so that was our reasoning behind language choice.
+          To ensure that this application connected only UCSD students, we created an e-mail verification system which sent an e-mail to your @ucsd.edu e-mail address.
+          For the database to store the user information and user messages, we used <b>Google Firebase</b>.
+          From our research, this was a relatively easy database to use for beginners and contained some useful documentation to ease the learning curve.
+          <br>
+          <center>
+            <a id="RandomMessenger_Implementation" href="images/RandomMessenger_implementation.jpg" target="_blank">
+              <img src="images/RandomMessenger_implementation.jpg" height="40%" width="40%">
+            </a>
+          </center>
+          <br>
+          This phase took the longest, as it was the first time for many of the people in my group developing a mobile application.
+          Some of the challenges we faced were adjusting ourselves to Android Studio, and learning how to call various existing APIs, such as email authentication APIs and those from Google Firebase.
+          The overall functionality we implemented was user authentication, messaging, and user profile generation.
+        </p>
+        <!--<br>-->
+        <h4><b>Testing</b></h4>
+        <p>
+          This is the phase where we verified that our implementation was accurate.
+          Our customers required us to have sufficient unit testing before commiting our code.
+          Unit testing is a software development process in which the smallest testable parts of an application, called units, are individually and independently scrutinized for proper operation.
+          This was done using a gradle.build file, where we placed all of our unit testing.
+          The unit tests were viewed by our customers, and they also did their own manual testing to make sure that features were working as discussed.
+          Upon sufficient individual testing, several full-time engineers in the team did some more thorough testing to ensure that my implementation was correct.
+          This was necessary because programmer are prone to make mistakes when developing code.
+          It is helpful for engineers to have other fresh eyes look and test at their code.
+          This phase is important because it ensures that the implementation is accurate, and that it can be used by other people as well.
+        </p>
+        <br>
+    </p>
+    
+    <h3>Challenges</h3>
+    <p>
+      This project was challenging because it was the first time doing a big mobile development project for me, along with all of the other team members.
+      Ultimately, we had to spend a lot of time researching how to create a mobile application from scratch using Android Studio.
+      In addition, all of the members invovled in this project were also in school, so we had to find times where we could all meet to work on this project.
+      There were weeks where development was lacking, as we had exams to study for, 
+      but ultimately we made up for those weeks in future iterations by producing twice as much code for those weeks.
+    </p>
+  </p>
+  <div style="text-align:center">   
+    <a href="https://github.com/kennysiu/RandomMessenger" target="_blank">
+      <i class="fa fa-github fa-2x fa-fw"></i>
+    </a>
+  </div>
+  <br><br>
+</div><br>
+
+<footer id="contact" class="container-fluid text-center">
+  <a href="mailto:kennethsiu96@yahoo.com">
+      <i class="fa fa-envelope fa-3x"></i>
+  </a> &nbsp; &nbsp;
+  <a href="http://linkedin.com/in/kennethsiu" target="_blank">
+      <i class="fa fa-linkedin-square fa-3x"></i>
+  </a> &nbsp; &nbsp;
+  <a href="http://github.com/kennysiu" target="_blank">
+      <i class="fa fa-github fa-3x"></i>
+  </a> &nbsp; &nbsp;
+  </a>
+  
+<!--</footer>-->
+
+</body>
+</html>
